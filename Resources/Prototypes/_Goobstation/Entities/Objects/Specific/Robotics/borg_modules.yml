@@ -1,4 +1,4 @@
-#Removal of these entities.
+#Removal of these entities.. Wayfarer really doesn't need lollypop modules.. and they seem to be causing test issues.
 
 # - type: entity
 #   id: BorgModuleLollypopMedical
