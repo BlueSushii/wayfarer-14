@@ -167,7 +167,7 @@
   # - BorgModuleAdvancedTreatment # Frontier
   # - BorgModuleDefibrillator # Frontier
   - BorgModuleJetpack # Frontier
-  - BorgModuleLollypopMedical # Goobstation.
+  #- BorgModuleLollypopMedical # Goobstation.
 
   radioChannels:
   - Science
@@ -218,7 +218,7 @@
   - BorgModuleMusique
   # - BorgModuleService # Frontier: deprecated, use NF variant
   - BorgModuleClowning
-  - BorgModuleLollypopService # Goobstation
+  # - BorgModuleLollypopService # Goobstation
   - BorgModuleGardening
   - BorgModuleHarvesting
   - BorgModuleBureaucracy # Frontier: FIXME - stacked as hell
