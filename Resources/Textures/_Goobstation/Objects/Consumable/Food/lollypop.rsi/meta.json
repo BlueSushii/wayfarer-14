@@ -44,6 +44,12 @@
       "name": "lollypop-captain"
     },
 	{
+      "name": "carp"
+    },
+	{
+      "name": "rainbow"
+    },
+	{
       "name": "inhand-left",
 	  "directions": 4
     },
