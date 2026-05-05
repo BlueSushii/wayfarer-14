@@ -271,6 +271,7 @@
   - WFClothingKimonoPink
   - WFClothingUniformJumpsuitGladiator
   - WFClothingUniformJumpskirtPerformer
+  - WFClothingUniformSkirtDruid
   - UniformMaid
   - ClothingUniformJumpskirtJanimaid
   - ClothingUniformJumpskirtJanimaidmini
@@ -547,6 +548,7 @@
   - WFClothingBeltPilotFilled
   - WFClothingBeltBandolier
   - WFClothingBeltHolster
+  - ClothingBeltSyndieHolster
   - WFClothingBeltChaplainSash
   - WFClothingBeltChaplainSashFilled
   - WFClothingBeltChaplainDragon
@@ -727,6 +729,7 @@
   - ClothingHeadHatFlowerWreath
   - FoodAmbrosiaVulgaris
   #
+  - WFClothingHeadHatDruid
   - ClothingHeadHatHoshat
   - ClothingHeadHatSyndieMAA
   - ClothingHeadHatWarden
@@ -768,6 +771,7 @@
   - WFClothingHeadHatCowboyWhite
   - WFClothingHeadHatWideBrimmed
   - WFClothingHeadHatWitchhunter
+  - WFClothingHeadHatWitch1
   - WFClothingHeadHatBishopMitre
   - WFClothingHeadHatKippah
   - WFClothingHeadHatPlaguedoctor
@@ -942,6 +946,8 @@
   - WFClothingNeckIFFOrange
   - WFClothingNeckIFFPurple
   - WFClothingNeckMantleCap
+  - WFClothingNeckDruidCape
+  - WFClothingNeckDruidMantle
   - WFClothingNeckCloakCap
   - WFClothingNeckCloakCapFormal
   - WFClothingNeckCloakQm
@@ -1114,6 +1120,7 @@
   - WFHoloGraffitiProjector # Punkish (might be annoying)
   - WFCrayonMagic
   - WFSprayPainterMagic
+  - ContractorAccessConfigurator # Coyote: Add Civilian Access Configurator
   # Bureaucracy
   - WFBoxFolderMedicalDoctor
   - WFBrbSign

@@ -2461,3 +2461,301 @@ Entries:
   id: 6780
   time: '2026-04-29T05:14:34.0000000+00:00'
   url: https://github.com/project-wayfarer/wayfarer-14/pull/705
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added Frag rounds to CGP Uplink.
+    - type: Add
+      message: Thrusters to faction RCDs.
+    - type: Add
+      message: Black Market RCD to Outlaw Uplink.
+    - type: Tweak
+      message: Cannon projectiles are faster.
+    - type: Tweak
+      message: APUs now output 9kw instead of 6kw
+    - type: Tweak
+      message: Shipgun projectiles now have radar tracking.
+    - type: Fix
+      message: Fixed Pridwen and Dagger firing arcs.
+  id: 6781
+  time: '2026-04-30T20:01:28.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/724
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Fixed IPC issues (Wallet, RPI, SSD Indicator, and more)
+  id: 6782
+  time: '2026-04-30T20:03:08.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/713
+- author: Luweth
+  changes:
+    - type: Add
+      message: Voxbox & needed atmos setup.
+    - type: Add
+      message: PoI Vend-o-mat to Dusk. (One was missing)
+    - type: Tweak
+      message: Changed the bar area to accommodate both sides of the bar.
+  id: 6783
+  time: '2026-04-30T20:03:28.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/719
+- author: JustKaits
+  changes:
+    - type: Add
+      message: Rot as a damage type
+    - type: Add
+      message: An accessible cryochem to cure Rot
+    - type: Add
+      message: A few enemies are now immune to Rot damage
+    - type: Add
+      message: Rot has a sprite in the health analyzer
+    - type: Fix
+      message: Split Cellular and Rot into separate types
+    - type: Remove
+      message: Rot isn't Cellular damage now
+  id: 6784
+  time: '2026-04-30T20:07:17.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/683
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: New atmospheric sprites
+  id: 6785
+  time: '2026-04-30T20:15:01.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/721
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Biogenerators now have a buffer system! They generate biomass slowly to
+        a certain limit, which is used before the material stacks.
+  id: 6786
+  time: '2026-04-30T20:17:04.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/681
+- author: Thr3d
+  changes:
+    - type: Tweak
+      message: Reduce harpy gasping
+  id: 6787
+  time: '2026-05-01T05:39:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/737
+- author: BlueSushii
+  changes:
+    - type: Add
+      message: Taxes to vendors that give to medical
+    - type: Remove
+      message: Edison no longer gets vault rewards
+    - type: Tweak
+      message: 'Smartfridges has 10x capacity '
+    - type: Tweak
+      message: CGP badge renaming to be correct
+  id: 6788
+  time: '2026-05-01T05:48:34.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/732
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added Vox Cortical Stacks (Brains)
+    - type: Add
+      message: Vox Nitrogen tank variant sprites.
+    - type: Tweak
+      message: Mask sprites for Vox
+  id: 6789
+  time: '2026-05-01T05:53:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/731
+- author: BlueSushii
+  changes:
+    - type: Tweak
+      message: Avali to human stomachs
+  id: 6790
+  time: '2026-05-01T05:55:32.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/736
+- author: VVersengt
+  changes:
+    - type: Fix
+      message: Fixed automated hauler turrets targeting
+  id: 6791
+  time: '2026-05-01T06:01:10.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/739
+- author: Luweth
+  changes:
+    - type: Add
+      message: Added missing discreet options to Responders.
+    - type: Add
+      message: Added discreet options to clothes mate.
+    - type: Tweak
+      message: >-
+        Readjusted bag inventory. People storing large weapons in invisible bags
+        is bad.
+    - type: Fix
+      message: Fixed the parents of the boots and mask.
+  id: 6792
+  time: '2026-05-01T06:02:04.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/727
+- author: VVersengt
+  changes:
+    - type: Add
+      message: Added Tactical Magboots to CGP Uplink
+  id: 6793
+  time: '2026-05-01T06:33:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/742
+- author: VVersengt
+  changes:
+    - type: Tweak
+      message: IFF Electronics are now CGP restricted contraband
+  id: 6794
+  time: '2026-05-01T06:51:03.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/744
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added "Force down" emote verb
+    - type: Tweak
+      message: Changed emote verbs to respect identity system if someones ID is hidden
+  id: 6795
+  time: '2026-05-01T07:00:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/745
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: >-
+        The Chemmaster 4000 can now switch between making pills from the
+        internal buffer or from an inserted beaker.
+  id: 6796
+  time: '2026-05-02T14:56:05.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/700
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: Druid clothes can be purchased straight from the loadout menu.
+  id: 6797
+  time: '2026-05-02T17:37:40.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/754
+- author: RoY7x
+  changes:
+    - type: Add
+      message: >-
+        Tree's now remove CO2 as well, mappers can now use tree's to also remove
+        CO2. Not just potted plants!
+  id: 6798
+  time: '2026-05-02T17:49:53.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/678
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: Armor plates.
+    - type: Add
+      message: >-
+        Clothing that Inherits ClothingOuterStorageBase can now use Armor
+        Plates.
+    - type: Tweak
+      message: Dressers now fit more things.
+  id: 6799
+  time: '2026-05-02T17:50:36.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/718
+- author: DevArchwave
+  changes:
+    - type: Add
+      message: >-
+        Respiron cans can now be found both in salvage and in the cargo request
+        console.
+  id: 6800
+  time: '2026-05-02T17:55:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/755
+- author: Lynx
+  changes:
+    - type: Add
+      message: >-
+        Adds the ability to place certain items on helmets and hard hats and
+        have them show!
+    - type: Add
+      message: >-
+        Adds engi goggles, flowers, cig packs, screwdrivers, lighters, and a few
+        more to the helmet whitelist! 
+  id: 6801
+  time: '2026-05-02T17:55:46.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/752
+- author: JustKaits
+  changes:
+    - type: Add
+      message: AME jar capacity increase
+    - type: Add
+      message: AME fuel jar price increase
+  id: 6802
+  time: '2026-05-02T21:44:06.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/729
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Biogenerators can now accept produce with their magnets.
+    - type: Tweak
+      message: >-
+        Biogenerators can now be upgraded by RPEDs, when their maintenance panel
+        is open.
+  id: 6803
+  time: '2026-05-02T21:45:41.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/759
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Point disk terminal. (Cherry pick Monolith 1408).
+  id: 6804
+  time: '2026-05-02T23:05:47.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/760
+- author: TheSlapper
+  changes:
+    - type: Add
+      message: (Miles) Shuttle network buttons from Monolith
+  id: 6805
+  time: '2026-05-03T23:22:16.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/764
+- author: drraccoony
+  changes:
+    - type: Fix
+      message: Fixed broken IPC markings introduced by PR 713
+  id: 6806
+  time: '2026-05-04T01:34:19.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/770
+- author: drraccoony
+  changes:
+    - type: Add
+      message: Added Vore place in mouth and chewing
+  id: 6807
+  time: '2026-05-04T05:33:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/767
+- author: Khaomi
+  changes:
+    - type: Add
+      message: Added Carnivore trait
+  id: 6808
+  time: '2026-05-04T05:34:09.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/750
+- author: DevArchwave
+  changes:
+    - type: Tweak
+      message: Added swabs to the biogenerator, and mutagen to its emag inventory
+  id: 6809
+  time: '2026-05-04T05:35:51.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/738
+- author: Luweth
+  changes:
+    - type: Add
+      message: Proper reagents to Vox brains.
+    - type: Tweak
+      message: Changed trash reagent values for Vox! Gimmie the gorbage.
+  id: 6810
+  time: '2026-05-04T07:38:37.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/772
+- author: Goodfaun
+  changes:
+    - type: Add
+      message: witch hat to loadout
+  id: 6811
+  time: '2026-05-04T18:11:12.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/781
+- author: Khaomi
+  changes:
+    - type: Tweak
+      message: Harpy have more bird emotes
+  id: 6812
+  time: '2026-05-04T21:55:21.0000000+00:00'
+  url: https://github.com/project-wayfarer/wayfarer-14/pull/782
