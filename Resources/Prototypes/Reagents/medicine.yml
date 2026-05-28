@@ -1062,9 +1062,12 @@
   color: "#d5d5e4"
   metabolisms:
     Medicine:
-      metabolismRate : 0.001 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.001
+      metabolismRate : 0.01 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.01
       effects:
-      - !type:Jitter
+      - !type:Jitter #Wayfarer Added conditional threshold to prevent jitter at very doses
+          conditions:
+            - !type:ReagentThreshold
+              min: 15
       - !type:GenericStatusEffect
         key: Stutter
         component: StutteringAccent
@@ -1075,12 +1078,22 @@
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 1 #Wayfarer much lower min requirement to produce effect 10 -> 1
+          min: 0.1 #Wayfarer much lower min requirement to produce effect 10 -> 0.1
       - !type:PopupMessage
         visualType: Medium
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
         type: Local
         probability: 0.1
+        conditions:
+        - !type:ReagentThreshold
+        min: .10 #Wayfarer, Added threshold to stop messages above the point of wearing off
+      - !type:PopupMessage
+        messages: ["You feel tiredness wash over you as the stimulant wears off."] #message to display
+        type: Local
+        conditions:
+        - !type:ReagentThreshold #Wayfarer, Added threshold to give wear off message shows twice
+          max: .10
+          min: .09
 
 - type: reagent
   id: Diphenylmethylamine
@@ -1092,7 +1105,7 @@
   color: "#b0abaa"
   metabolisms:
     Medicine:
-      metabolismRate : 0.001 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.001
+      metabolismRate : 0.01 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.01
       effects:
       - !type:ModifyStatusEffect
         effectProto: StatusEffectDrowsiness
@@ -1101,13 +1114,23 @@
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 1 #Wayfarer much lower min requirement to produce effect 10 -> 1
+          min: 0.1 #Wayfarer much lower min requirement to produce effect 10 -> 0.1
       - !type:PopupMessage
         visualType: Medium
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
         type: Local
         probability: 0.1
-
+        conditions:
+        - !type:ReagentThreshold
+          min: .10 #Wayfarer, Added threshold to stop messages above the point of wearing off
+      - !type:PopupMessage
+        visualType: Medium
+        messages: ["You feel tiredness wash over you as the stimulant wears off."] #message to display
+        type: Local
+        conditions:
+        - !type:ReagentThreshold #Wayfarer, Added threshold to give wear off message shows twice
+          max: .10
+          min: .09
 - type: reagent
   id: Sigynate
   name: reagent-name-sigynate
