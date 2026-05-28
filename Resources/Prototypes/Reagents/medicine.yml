@@ -1086,7 +1086,7 @@
         probability: 0.1
         conditions:
         - !type:ReagentThreshold
-        min: .10 #Wayfarer, Added threshold to stop messages above the point of wearing off
+          min: .10 #Wayfarer, Added threshold to stop messages above the point of wearing off
       - !type:PopupMessage
         messages: ["You feel tiredness wash over you as the stimulant wears off."] #message to display
         type: Local
