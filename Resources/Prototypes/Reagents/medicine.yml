@@ -1065,7 +1065,7 @@
       metabolismRate : 0.01 # Wayfarer: none<0.01 ; Stimulant longevitiy buff
       effects:
       # Wayfarer: Added conditional threshold to prevent jitter at lower doses
-      - !type:Jitter 
+      - !type:Jitter
           conditions:
             - !type:ReagentThreshold
               min: 15
@@ -1091,7 +1091,7 @@
         - !type:ReagentThreshold
           min: .10 # Added threshold to stop messages above the point of wearing off
       - !type:PopupMessage
-        messages: ["You feel tiredness wash over you as the stimulant wears off."] #message to display
+        messages: [ "generic-reagent-effect-tired" ] #message to display
         type: Local
         conditions:
         - !type:ReagentThreshold # Added threshold to give wear off message shows twice
@@ -1118,7 +1118,7 @@
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 0.1 # Wayfarer: 5<0.1 ; much lower min requirement to produce effect 
+          min: 0.1 # Wayfarer: 5<0.1 ; much lower min requirement to produce effect
       - !type:PopupMessage
         visualType: Medium
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
@@ -1130,7 +1130,7 @@
           min: .10 # Added threshold to stop messages above the point of wearing off
       - !type:PopupMessage
         visualType: Medium
-        messages: ["You feel tiredness wash over you as the stimulant wears off."] #message to display
+        messages: [ "generic-reagent-effect-tired" ] #message to display
         type: Local
         conditions:
         - !type:ReagentThreshold # Added threshold to give wear off message shows twice
