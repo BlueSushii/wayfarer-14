@@ -1062,6 +1062,7 @@
   color: "#d5d5e4"
   metabolisms:
     Medicine:
+      metabolismRate : 0.001 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.001
       effects:
       - !type:Jitter
       - !type:GenericStatusEffect
@@ -1074,7 +1075,7 @@
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 10
+          min: 1 #Wayfarer much lower min requirement to produce effect 10 -> 1
       - !type:PopupMessage
         visualType: Medium
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
@@ -1091,6 +1092,7 @@
   color: "#b0abaa"
   metabolisms:
     Medicine:
+      metabolismRate : 0.001 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.001
       effects:
       - !type:ModifyStatusEffect
         effectProto: StatusEffectDrowsiness
@@ -1099,7 +1101,7 @@
       - !type:ResetNarcolepsy
         conditions:
         - !type:ReagentThreshold
-          min: 5
+          min: 1 #Wayfarer much lower min requirement to produce effect 10 -> 1
       - !type:PopupMessage
         visualType: Medium
         messages: ["ethyloxyephedrine-effect-feeling-awake", "ethyloxyephedrine-effect-clear-mind"]
