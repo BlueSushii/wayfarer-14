@@ -1064,7 +1064,7 @@
     Medicine:
       metabolismRate : 0.01 #Wayfarer, Stimulant longevitiy buff 1.00 -> 0.01
       effects:
-      - !type:Jitter #Wayfarer Added conditional threshold to prevent jitter at very doses
+      - !type:Jitter #Wayfarer Added conditional threshold to prevent jitter at lower doses
           conditions:
             - !type:ReagentThreshold
               min: 15
